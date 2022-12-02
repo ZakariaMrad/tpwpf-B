@@ -9,7 +9,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Assets\Pictures\" />
+    <None Remove="Assets\Pictures\americanexpress.png" />
+    <None Remove="Assets\Pictures\arrowdown.jpg" />
+    <None Remove="Assets\Pictures\crown.jpg" />
+    <None Remove="Assets\Pictures\mastercard.png" />
+    <None Remove="Assets\Pictures\mastercard.svg" />
+    <None Remove="Assets\Pictures\visa.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Pictures\americanexpress.png" />
+    <Resource Include="Assets\Pictures\arrowdown.jpg" />
+    <Resource Include="Assets\Pictures\crown.jpg" />
+    <Resource Include="Assets\Pictures\mastercard.png" />
+    <Resource Include="Assets\Pictures\mastercard.svg" />
+    <Resource Include="Assets\Pictures\visa.png" />
   </ItemGroup>
 
 </Project>
